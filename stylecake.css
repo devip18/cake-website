@@ -1,0 +1,155 @@
+#line1
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#line2
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: darkgreen;
+    background-color: orange;
+    padding: 25px 25px 25px 25px;
+}
+img
+{
+    height: 200px;
+    width: 300px;
+    padding: 50px;
+}
+img:hover{
+    transform: scale(1.1);
+}
+button
+{
+    padding: 15px 15px 15px 15px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+h2
+{
+    color: crimson;
+    margin-left: 120px;
+    font-weight: bold;
+}
+h3{
+    margin-left: 160px;
+    font-size: x-large;
+}
+.blackforest
+{
+    border: 2px solid black;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 5px ;
+    margin-right: 20px; 
+}
+.redvelvet
+{
+     border: 2px solid black;
+     justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 5px;
+}
+.butterscotch
+{
+        border: 2px solid black;
+        justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 5px;
+    margin-left: 20px; 
+}
+.Strawberry
+{
+    border: 2px solid black;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 5px;
+    margin-right: 20px; 
+    margin-top: 20px;
+    
+}
+.pineapple
+{
+    border: 2px solid black;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 5px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.chocolate
+{
+    border: 2px solid black;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 5px;
+    margin-left: 10px; 
+    margin-top: 20px;
+    padding-left: 20px;
+    
+}
+button:hover
+{
+    transform: scale(1.1);
+    background-color: lightgreen;
+}
+#container
+{
+    margin-block-end: 20px;
+    padding-left: 20px;
+    pad
+}
+
+
+
+
+a{
+            padding: 30px;
+            /* position: fixed; */
+        }
+         /* #box
+        {
+            display: flex;    
+        }  */
+
+        .navbar{
+            background-color: black;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            /* margin-top: 20px; */
+            top: 0;
+            left: 0;
+              }
+              .logo{
+                display: flex;
+                align-items: center;
+                margin-top: -50px;
+
+                
+                
+              }
+              .logo img{
+                border-radius: 50%;
+                
+                
+              }
+        nav ul{
+            display: flex;
+             justify-content: center;
+             margin-top: 10px;
+
+        } 
+        nav ul li a{
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        nav ul li a:hover{
+            color: yellow;
+
+        }
+        #total
+        {
+            position: fixed;
+        }

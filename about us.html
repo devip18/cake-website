@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake cottage</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        .animate{
+            height: 300px;
+            width: 400px;
+            /* margin-left: 500px; */
+            animation: image 10s linear infinite;
+            background-repeat: no repeat;
+            background-size: cover;
+        }
+        @keyframes image{
+            0%
+            {
+                background-image: url("image.jpj.webp");
+            }
+            30%
+            {
+                background-image: url("secimage.jpg");
+            }
+            60%
+            {
+                background-image: url("thiimage.webp");
+            }
+            100%
+            {
+                background-image: url("fouimage.jpg");
+            }
+
+        }
+        #line{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .kitchenimage{
+            position: relative;
+            height: 900px;
+        }
+        .left-img{
+            position: absolute;
+            left: -300px;
+            top: 50px;
+            width: 500px;
+        }
+        .right-img{
+            position: absolute;
+            right: -200px;
+            top: 50px;
+            width: 500px;
+            height: 410px;
+        }
+
+
+.navbar{
+            background-color: black;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            /* margin-top: 20px; */
+            top: 0;
+            left: 0;
+              }
+              .logo{
+                display: flex;
+                align-items: center;
+                margin-top: -50px;
+
+                
+                
+              }
+              .logo img{
+                border-radius: 50%;
+                
+                
+              }
+        nav ul{
+            display: flex;
+             justify-content: center;
+             margin-top: 10px;
+
+        } 
+        nav ul li a{
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 30px;
+            
+        }
+        nav ul li a:hover{
+            color: yellow;
+
+        }
+        #total
+        {
+            position: fixed;
+        }
+        h2
+        { 
+            text-align: center;
+            color: crimson;
+            font-size: 40px;
+        }
+        h3
+        {
+            text-align: center;
+            font-size: 25px;
+        }
+        footer{
+            background-color: gray;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+ <header>
+        <div id="total"></div>    <nav class="navbar">
+        <div class="logo">
+            <img src="Untitled design.png" alt="Cake Delights" style="height: 70px;width: 150px;">
+            <h2 style="color: white;margin-left: 50px;font-size: 45px;margin-top: 80px;color: orangered;">Cake Delights</h2>
+            </div>
+        <ul type="none">
+            
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="about us.html">About us</a></li>
+            <li><a href="cakegallery.html">Cake gallery</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <!-- <li><a href="contactus.html">Contact us</a></li> -->
+             <li><a href="our services.html">Our services</a></li>
+
+             <li><a href="orderacake.html">Order</a></li>
+            
+            </ul>
+    </nav>
+    </div>
+    </header><br><br><br><br><br><br><br><br><br><br><br>
+        <h2 style="font-size: 50px;text-align: center;background-color: crimson;padding: 25px 25px 25px 25px;color: aqua;">About us</h2>  
+        <div id="line">
+        <div class="animate"></div><br><br>
+        <div class="side">
+    <h4 style="font-weight: bold;font-size: 20px;color: darkgreen;">Welcome to Sweet Delights Cake Shop, where every cake is crafted with passion,<br> creativity, and a love for making celebrations memorable.<br><br>We believe that every special occasion deserves a delicious centerpiece, and that's why<br> we are dedicated to baking fresh,high quality cakes that brings joy to every moment.<br><br>Our cakes & Desserts receive a lot of compliments and are complimented by<br> wide range of exclusive desserts.<br><br>Our theme based Creative Cakes, Cake pop , Cup Cakes and Desserts for <br>Parities, make you Party Unique and Inevitable.</h4>
+    </div>
+    </div>
+    <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;text-align: center;padding-top: 20px;">Inside the kitchen</h1>
+     <div class="kitchenimage">
+        <img src="kitchen1.webp" class="left-img">
+        <img src="kitchen2.webp" class="right-img">
+     </div>
+     <script>
+        $(document).ready(function(){
+            $(".left-img").animate({
+                left:"100px"
+            },"3000");
+                $(".right-img").animate({
+                    right:"100px"
+                },"3000");
+        });
+     </script>
+     <!-- <h4> .
+
+🍰 Our Baking Process
+
+🥣 Fresh Ingredients Only
+We use high-quality ingredients like fresh cream, real butter, premium chocolate, and farm-fresh eggs to ensure rich taste and perfect texture.
+
+🔥 Baked to Perfection
+Each cake is baked with precision, maintaining the perfect balance of softness, moisture, and flavor.
+
+🎨 Handcrafted Decorations
+From smooth frosting to intricate designs, our skilled bakers carefully decorate every cake to make it visually stunning.</h4> -->
+<footer>
+<h2>Contact us</h2> 
+<h3> Address:Cake Delights,5 roads,salem.</h3>
+<h3>Phone:+123 456 7890</h3>
+<h3>Email:cakedelights@gmail.com</h3>  
+</footer>
+
+</body>
+</html> 
+
+
+
+

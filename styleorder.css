@@ -1,0 +1,137 @@
+form
+{
+    padding: 5px;
+}
+
+body
+{
+    text-align: center;
+    font-size: large; 
+    background-color: black;
+
+
+}
+button
+{
+    align-content: center;
+    background-color: aqua;
+    color: brown;
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    font-size: large;
+    border-radius: 20px;
+
+}
+body{
+    background-image: url("backgroundcake.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    /* margin-top: 700px; */
+
+}
+h1{
+    color: aqua;
+    font-style: italic;
+}
+h3
+{
+    color: aqua;
+    font-style: italic;
+}
+#line1
+{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+#line2
+{
+    display: flex;
+    justify-content: space-evenly;
+    color: wheat;
+}
+input
+{
+    background: transparent;
+    border:2px solid black;
+    height: 25px;
+    width:200px;
+    justify-content: space-evenly;
+}
+#box
+{
+    background-color: dimgray;
+    /* opacity: 0.5; */
+    backdrop-filter: blur(10px);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+    
+    label{
+    color: white;
+    font-size: 25px;
+    font-weight:bold;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: green;
+    color: black;
+}
+a{
+            padding: 30px;
+            /* position: fixed; */
+        }
+         /* #box
+        {
+            display: flex;    
+        }  */
+
+        .navbar{
+            background-color: black;
+            padding: 15px;
+            /* position: fixed; */
+            width: 100%;
+            /* margin-top: 20px; */
+            top: 0;
+            left: 0;
+              }
+              .logo{
+                display: flex;
+                align-items: center;
+                margin-top: -50px;
+
+                
+                
+              }
+              .logo img{
+                border-radius: 50%;
+                
+                
+              }
+        nav ul{
+            display: flex;
+             justify-content: center;
+             margin-top: 10px;
+
+        } 
+        nav ul li a{
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        nav ul li a:hover{
+            color: yellow;
+
+        }
+        /* #total
+        {
+            position: fixed;
+        } */
+        /* body{
+            margin-top: 500px;
+        } */
